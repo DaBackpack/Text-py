@@ -8,12 +8,9 @@ In this code, there are references to TTF typeface files and sound files which a
 
 =====Introduction=====
 
-This is a demonstration of a text adventure engine I built upon the existing Ren'py visual novel engine. No adjustments to Ren'py itself are needed, since 
-all of the adjustments are done through screens and windows. You can use this to build games that resemble ZORK or Colossal Cave Adventure while still having the capacity
-to use Ren'py utilities and visual effects.
+This is a demonstration of a text adventure engine I built upon the existing Ren'py visual novel engine. No adjustments to Ren'py itself are needed, since all of the adjustments are done through screens and windows. You can use this to build games that resemble ZORK or Colossal Cave Adventure while still having the capacity to use Ren'py utilities and visual effects.
 
-Most of the crucial code is in script.rpy (variable and function declarations) and screens.rpy (window / input configuration). The areas.rpy is 
-a demonstration of how to actually create scenarios and alter the game state.
+Most of the crucial code is in script.rpy (variable and function declarations) and screens.rpy (window / input configuration). The areas.rpy is a demonstration of how to actually create scenarios and alter the game state.
 
 For a realized demo using this engine, visit https://dabackpack.itch.io/ for the "Fantasy Adventure" project. 
 

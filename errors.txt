@@ -1,9 +1,0 @@
-﻿I'm sorry, but errors were detected in your script. Please correct the
-errors listed below, and try again.
-
-
-File "game/screens.rpy", line 135: u'tex' is not a keyword argument or valid child for the hbox statement.
-    tex "<<Can't enter a command.>>"
-       ^
-
-Ren'Py Version: Ren'Py 6.99.11.1749

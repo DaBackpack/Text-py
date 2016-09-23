@@ -12,7 +12,7 @@ This is a demonstration of a text adventure engine I built upon the existing Ren
 
 Most of the crucial code is in script.rpy (variable and function declarations) and screens.rpy (window / input configuration). The areas.rpy is a demonstration of how to actually create scenarios and alter the game state.
 
-For a realized demo using this engine, visit https://dabackpack.itch.io/ for the "Fantasy Adventure" project. 
+For a realized demo using this engine, examine the .zip on the top-level directory.
 
 =====Important Variables=====
 

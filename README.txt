@@ -23,6 +23,7 @@ desc: String ------ Because of the flow of execution, the author should not make
 append: String ---- This holds a string which will be appended to the string produced by the say() method. You can use this to hold context-insensitive information for the user,
     i.e. printing "You are on the verge of death!" after the player has low hit points in any arbitrary battle. 
 room: String ------ Contains the name of the player's current location. This is displayed to the user in the program header. 
+hide_val: Boolean - (Default false) If false, displays the input window at the bottom. If true, hides the input window, turning the game into a normal NVL game. 
 
 Optional, but maybe still useful variables:
 

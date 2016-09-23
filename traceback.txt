@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/areas.rpy", line 544, in script
+    $expected -= ["talk"]
+  File "game/areas.rpy", line 544, in <module>
+    $expected -= ["talk"]
+TypeError: unsupported operand type(s) for -=: 'RevertableList' and 'RevertableList'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/areas.rpy", line 544, in script
+    $expected -= ["talk"]
+  File "C:\Users\Chris\Desktop\renpy-6.99.0-sdk\renpy\ast.py", line 805, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Chris\Desktop\renpy-6.99.0-sdk\renpy\python.py", line 1641, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/areas.rpy", line 544, in <module>
+    $expected -= ["talk"]
+TypeError: unsupported operand type(s) for -=: 'RevertableList' and 'RevertableList'
+
+Windows-8-6.2.9200
+Ren'Py 6.99.11.1749
+Fantasy Adventure 0.0
